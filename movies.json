@@ -1,342 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manglam Movie</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHqTQX0O6IRej1B1TpQmWW2BRfxRduSXFLkOZR4/UynKti9MdDObbLfXHq5gP26v7dVBZmLQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <style>
-      /* Variables for theming */
-      :root {
-        --primary-color: #2e0059;
-        --secondary-color: #242424;
-        --accent-color: #2a3177;
-        --text-color: #fff;
-        --card-bg-color: #fff;
-        --card-text-color: #000;
+[
+  {
+    "category": "Bollywood",
+    "movies": [
+      {
+        "id": "moviebolly1",
+        "title": "Y-Film",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviebolly2",
+        "title": "Y-Film",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviebolly3",
+        "title": "Y-Film",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviebolly4",
+        "title": "Y-Film",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviebolly5",
+        "title": "Y-Film",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviebolly6",
+        "title": "Z-Film",
+        "imageUrl": "https://via.placeholder.com/150"
       }
-
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background: url("./css/images/body-bg.gif");
-        color: var(--text-color);
-        overflow-x: hidden;
+    ],
+    "moreLink": "bollywood.html"
+  },
+  {
+    "category": "Hollywood",
+    "movies": [
+      {
+        "id": "movieholly1",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieholly2",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieholly3",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieholly4",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieholly5",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieholly6",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
       }
-
-      .header {
-        background-color: var(--secondary-color);
-        padding: 10px;
-        text-align: center;
+    ],
+    "moreLink": "hollywood.html"
+  },
+  {
+    "category": "Web Series",
+    "movies": [
+      {
+        "id": "movieweb1",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieweb2",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieweb3",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieweb4",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieweb5",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movieweb6",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
       }
-
-      /* Search bar styling */
-      .search-bar-container {
-        padding: 10px;
-        display: flex;
-        width: 100%;
-        justify-content: center;
+    ],
+    "moreLink": "webseries.html"
+  },
+  {
+    "category": "South Indian",
+    "movies": [
+      {
+        "id": "moviesouth1",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviesouth2",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviesouth3",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviesouth4",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviesouth5",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "moviesouth6",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
       }
-
-      .search-bar {
-        display: flex;
-        position: relative;
-        max-width: 400px;
-        width: 100%;
+    ],
+    "moreLink": "south.html"
+  },
+  {
+    "category": "Voovi",
+    "movies": [
+      {
+        "id": "movievoovi1",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movievoovi2",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movievoovi3",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movievoovi4",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movievoovi5",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "movievoovi6",
+        "title": "X-Man",
+        "imageUrl": "https://via.placeholder.com/150"
       }
-
-      .search-bar input[type="text"] {
-        width: 100%;
-        padding: 10px 40px 10px 15px;
-        font-size: 16px;
-        border: 2px solid #555;
-        border-radius: 5px;
-        background-color: #333;
-        color: white;
-        outline: none;
-        transition: all 0.3s ease;
-      }
-
-      .search-bar input[type="text"]:focus {
-        border-color: #888;
-        box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-      }
-
-      .search-bar i {
-        position: absolute;
-        top: 50%;
-        right: 15px;
-        transform: translateY(-50%);
-        font-size: 18px;
-        color: #aaa;
-        cursor: pointer;
-      }
-
-      .menu {
-        background-color: var(--secondary-color);
-        padding: 20px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        width: 97%;
-      }
-
-      .title {
-        margin: 0;
-        padding: 10px;
-        font-size: 24px;
-      }
-
-      .menu-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
-      }
-
-      .menu-buttons button {
-        background-color: #444444;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-      }
-
-      .menu-buttons button:hover {
-        background-color: #555555;
-      }
-
-      .movies {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        /* background-color: var(--primary-color); */
-        width: 97%;
-        padding: 20px;
-      }
-
-      .movie-card {
-        background-color: var(--card-bg-color);
-        color: var(--card-text-color);
-        width: 150px;
-        text-align: center;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-        transition: transform 0.3s ease;
-        cursor: pointer;
-      }
-
-      .movie-card:hover {
-        transform: scale(1.05);
-      }
-
-      .movie-card img {
-        width: 100%;
-      }
-
-      .movie-card p {
-        margin: 10px;
-        font-size: 14px;
-      }
-
-      .pagination {
-        margin-top: 20px;
-        text-align: center;
-      }
-
-      .pagination button {
-        padding: 10px 20px;
-        background-color: var(--accent-color);
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        margin: 0 5px;
-      }
-
-      .pagination button:disabled {
-        background-color: #b0c4de;
-        cursor: not-allowed;
-      }
-
-      .pagination button:hover:not(:disabled) {
-        background-color: #2980b9;
-      }
-
-      /* Responsive Design */
-      @media (max-width: 768px) {
-        .menu-buttons button {
-          padding: 8px 15px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="body">
-      <div class="search-bar-container">
-        <div class="search-bar">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search for movies..."
-            onkeyup="filterPosts()"
-            aria-label="Search movies"
-          />
-          <i class="fa-solid fa-search" onclick="filterPosts()"></i>
-        </div>
-      </div>
-      <div class="menu">
-        <h1 class="title">Manglam Movie</h1>
-        <div class="menu-buttons" id="menu-buttons"></div>
-      </div>
-      <div class="movies" id="movie-card"></div>
-      <div class="pagination">
-        <button id="prevButton" onclick="loadPreviousPage()" disabled>
-          Previous Page
-        </button>
-        <button id="nextButton" onclick="loadNextPage()">Next Page</button>
-      </div>
-    </div>
-    <script>
-      const noResultsMessage = "No movies found.";
-      let currentPage = 1;
-      const postsPerPage = 20;
-      <div class="movies">
-      <div class="movie-card" data-title="Love Again">
-          <img src="" alt="Movie Poster">
-          <p>Love Again</p>
-      </div>
-      <div class="movie-card" data-title="VEDDA">
-          <img src="" alt="Movie Poster">
-          <p>VEDDA</p>
-      </div>
-      <div class="movie-card" data-title="POPEYE">
-          <img src="" alt="Movie Poster">
-          <p>POPEYE</p>
-      </div>
-      <div class="movie-card" data-title="BLOODY DADDY">
-          <img src="" alt="Movie Poster">
-          <p>BLOODY DADDY</p>
-      </div>
-  </div>
-  
-
-      const categories <div class="movies">
-      <div class="movie-card" data-title="Love Again">
-          <img src="" alt="Movie Poster">
-          <p>Love Again</p>
-      </div>
-      <div class="movie-card" data-title="VEDDA">
-          <img src="" alt="Movie Poster">
-          <p>VEDDA</p>
-      </div>
-      <div class="movie-card" data-title="POPEYE">
-          <img src="" alt="Movie Poster">
-          <p>POPEYE</p>
-      </div>
-      <div class="movie-card" data-title="BLOODY DADDY">
-          <img src="" alt="Movie Poster">
-          <p>BLOODY DADDY</p>
-      </div>
-  </div>
-  = [
-        "Latest Movie",
-        "Bollywood 720p",
-        "Kangan",
-        "Hungama",
-        "Hollywood 1080p",
-        "AltT",
-        "Watcho",
-        "Atrangii",
-        "Web Series",
-        "Kooku",
-        "Stage",
-      ];
-
-      function loadMenuButtons() {
-        const container = document.getElementById("menu-buttons");
-        categories.forEach(category => {
-            const button = document.createElement("button");
-            button.textContent = category;
-            button.onclick = () => setSearchValue(category);
-            container.appendChild(button);
-        });
-    }
-
-    function redirectToSearch(category) {
-        window.location.href = `search.html?category=${encodeURIComponent(category)}`;
-    }
-
-    function setSearchValue(value) {
-        const searchInput = document.getElementById("searchInput");
-        searchInput.value = value;
-        filterPosts();
-    }
-
-    // Poster URLs ko movie titles ke saath map karein
-const posterURIs = {
-  "Love Again": "https://example.com/love-again.jpg",
-  "VEDDA": "https://example.com/vedda.jpg",
-  "POPEYE": "https://example.com/popeye.jpg",
-  "BLOODY DADDY": "https://example.com/bloody-daddy.jpg"
-};
-
-// Sabhi movie cards ko target karein
-const movieCards = document.querySelectorAll(".movie-card");
-
-// Har movie card ke liye poster set karein
-movieCards.forEach(movieCard => {
-  const title = movieCard.getAttribute("data-title"); // Movie ka title lein
-  const imgElement = movieCard.querySelector("img"); // Image element ko target karein
-
-  // URI map se poster URL assign karein (default URI agar match na mile)
-  imgElement.src = posterURIs[title] || "https://via.placeholder.com/150";
-});
-
-
-        document.getElementById("prevButton").disabled = page === 1;
-        document.getElementById("nextButton").disabled = endIndex >= filteredTitles.length;
-    }
-
-    function handleAdRedirect(movieTitle) {
-        const adUrls = ["https://example-ad1.com", "https://example-ad2.com"];
-        const finalUrl = `movie-details.html?movie=${encodeURIComponent(movieTitle)}`;
-        let clicks = parseInt(localStorage.getItem(movieTitle)) || 0;
-
-        if (clicks < adUrls.length) {
-            window.location.href = adUrls[clicks];
-            localStorage.setItem(movieTitle, clicks + 1);
-        } else {
-            window.location.href = finalUrl;
-            localStorage.setItem(movieTitle, 0); // Reset after redirecting to the final URL
-        }
-    }
-
-    function filterPosts() {
-        const searchInput = document.getElementById("searchInput").value.toLowerCase();
-        const filteredTitles = postTitles.filter(title => title.toLowerCase().includes(searchInput));
-        loadPosts(1, filteredTitles); // Reset to page 1 on search
-    }
-
-    loadMenuButtons();
-    loadPosts(1); // Initially load the first page
-    </script>
-  </body>
-  <script
-    src="https://kit.fontawesome.com/7b08f70322.js"
-    crossorigin="anonymous"
-  ></script>
-</html>
+    ],
+    "moreLink": "voovi.html"
+  }
+]
