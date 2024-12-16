@@ -4,33 +4,33 @@
     "movies": [
       {
         "id": "moviebolly1",
-        "title": "Y-Film",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": ""shingum,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHnhQ6yVHdsN8eRo_s5kCEcMDPd-Hn2WXhg&s"
       },
       {
         "id": "moviebolly2",
-        "title": "Y-Film",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "stree 2",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNWIzZjVmN2EtNGEyMy00MzVlLWIxMmItZjYzZGVjMzQ3N2VkXkEyXkFqcGc@._V1_.jpg"
       },
       {
         "id": "moviebolly3",
-        "title": "Y-Film",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "stree 3",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYE1zZ1vrHA4H-9tQmYtzg-gUD3xHOA0bmYg&s"
       },
       {
         "id": "moviebolly4",
-        "title": "Y-Film",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "kalki",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTU0MzFmNjAtYjk1YS00N2JlLThjMjYtZjM4ZDY4NTBlNDM5XkEyXkFqcGc@._V1_.jpg"
       },
       {
         "id": "moviebolly5",
-        "title": "Y-Film",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "dhadak",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUE7PlfraKvAgxoG09vTP-MAZkhw5MlUnfkA&s"
       },
       {
         "id": "moviebolly6",
-        "title": "Z-Film",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "khel khel mai",
+        "imageUrl": "https://cdn.siasat.com/wp-content/uploads/2024/08/GUhQLB9WoAAYZF3-717x1024.jpeg"
       }
     ],
     "moreLink": "bollywood.html"
