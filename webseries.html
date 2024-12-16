@@ -253,6 +253,18 @@
         "Post 10 Title",
         "Post 10 Title",
       ];
+      const postImages = [
+    "https://via.placeholder.com/151?text=Love+Again",  // Image for Love Again Movie Download
+    "https://via.placeholder.com/151?text=VEDDA",  // Image for VEDDA FULL MOVIE DOWNLOAD
+    "https://via.placeholder.com/151?text=POPEYE",  // Image for POPEYE FULL MOVIE DOWNLOAD
+    "https://via.placeholder.com/151?text=BLOODY+DADDY",  // Image for BLOODY DADDY FULL MOVIE
+    "https://via.placeholder.com/151?text=KAJASAAR",  // Image for KAJASAAR FULL MOVIE
+    "https://via.placeholder.com/151?text=VISFOT",  // Image for VISFOT FULL MOVIE DOWNLOAD
+    "https://via.placeholder.com/151?text=AVENGERS",  // Image for AVENGERS MOVIE DOWNLOAD
+    "https://via.placeholder.com/151?text=GRAND+RELEASE",  // Image for GRAND RELEASE TODAY
+    // Add more image URLs corresponding to other posts...
+];
+
 
       const categories = [
         "Latest Movie",
@@ -289,35 +301,37 @@
     }
 
     function loadPosts(page, filteredTitles = postTitles) {
-        const postContainer = document.querySelector(".movies");
-        postContainer.innerHTML = "";
+    const postContainer = document.querySelector(".movies");
+    postContainer.innerHTML = "";
 
-        const startIndex = (page - 1) * 20; // Assuming 20 posts per page
-        const endIndex = startIndex + 20;
-        const postsToShow = filteredTitles.slice(startIndex, endIndex);
+    const startIndex = (page - 1) * postsPerPage; // Assuming 20 posts per page
+    const endIndex = startIndex + postsPerPage;
+    const postsToShow = filteredTitles.slice(startIndex, endIndex);
 
-        postsToShow.forEach(title => {
-            const postElement = document.createElement("div");
-            postElement.classList.add("movie-card");
-            postElement.setAttribute("data-title", title); // Store title for ad logic
+    postsToShow.forEach((title, index) => {
+        const postElement = document.createElement("div");
+        postElement.classList.add("movie-card");
+        postElement.setAttribute("data-title", title); // Store title for ad logic
 
-            const imgElement = document.createElement("img");
-            imgElement.src = "https://via.placeholder.com/150";
+        const imgElement = document.createElement("img");
+        imgElement.src = postImages[index];  // Use the image URL from postImages array
 
-            const titleElement = document.createElement("p");
-            titleElement.innerText = title;
+        const titleElement = document.createElement("p");
+        titleElement.innerText = title;
 
-            postElement.appendChild(imgElement);
-            postElement.appendChild(titleElement);
-            postContainer.appendChild(postElement);
+        postElement.appendChild(imgElement);
+        postElement.appendChild(titleElement);
+        postContainer.appendChild(postElement);
 
-            // Add click event for ads
-            postElement.addEventListener('click', () => handleAdRedirect(title));
-        });
+        // Add click event for ads
+        postElement.addEventListener('click', () => handleAdRedirect(title));
+    });
 
-        document.getElementById("prevButton").disabled = page === 1;
-        document.getElementById("nextButton").disabled = endIndex >= filteredTitles.length;
-    }
+    // Disable or enable pagination buttons based on page number
+    document.getElementById("prevButton").disabled = page === 1;
+    document.getElementById("nextButton").disabled = endIndex >= filteredTitles.length;
+}
+
 
     function handleAdRedirect(movieTitle) {
         const adUrls = ["https://example-ad1.com", "https://example-ad2.com"];
