@@ -15,7 +15,7 @@
       {
         "id": "moviebolly3",
         "title": "stree 3",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYE1zZ1vrHA4H-9tQmYtzg-gUD3xHOA0bmYg&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20Vsfzn-HJQxTWPfYF8-BaauU3w4nJWvMzg&s"
       },
       {
         "id": "moviebolly4",
@@ -40,33 +40,33 @@
     "movies": [
       {
         "id": "movieholly1",
-        "title": "X-Man",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "venom movie",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4__SrjmPgPCYTR54M9k_ulO0iIA1a3fMXZw&s"
       },
       {
         "id": "movieholly2",
-        "title": "X-Man",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "kingdom apes",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgBT-Oh8blied-Tcs1_NW8lISdUR06l74A5g&s"
       },
       {
         "id": "movieholly3",
-        "title": "X-Man",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "mafusa",
+        "imageUrl": "https://assetscdn1.paytm.com/images/cinema/mufasa--cfe21fa0-a30d-11ef-b945-57c02e367648.jpg?format=webp&imwidth=300"
       },
       {
         "id": "movieholly4",
-        "title": "X-Man",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "deadpool",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1xmfpyTo8qc0ON1xirEIr5u8nyjD4KiTNw&s"
       },
       {
         "id": "movieholly5",
-        "title": "X-Man",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "fast and furius",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzEwZjczOTktYzU1OS00YjJlLTgyY2UtNWEzODBlN2RjZDEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       },
       {
         "id": "movieholly6",
-        "title": "X-Man",
-        "imageUrl": "https://via.placeholder.com/150"
+        "title": "night swime",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGpZKENWoR3W6np9RGK795vphiVmA96tPWdg&s"
       }
     ],
     "moreLink": "hollywood.html"
