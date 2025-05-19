@@ -92,16 +92,16 @@
   </nav>
 
   <div class="content">
-    <img src="https://via.placeholder.com/300x450?text=Movie+Poster" class="poster" alt="Movie Poster" />
+    <img src="https://www.gadgets360.com/entertainment/new-hindi-movies/300x450?text=Movie+Poster" class="poster" alt="Movie Poster" />
     <h1>🔥 Pathaan (2023)</h1>
 
     <div class="download-buttons">
-      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://download.com/360p')">Click Here To Download 360p</button>
-      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://download.com/480p')">Click Here To Download 720p</button>
-      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://download.com/720p')">Click Here To Download 1080p</button>
-      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://download.com/1080p')">Fast Download 720p</button>
-      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://download.com/4k')">Super Fast Download 1080p</button>
-      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://download.com/mobile')">Watch Online </button>
+      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://terasharelink.com/s/15f6TzmM69xGCanXxJ6V70Q')">Click Here To Download 360p</button>
+      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://terasharelink.com/s/15f6TzmM69xGCanXxJ6V70Q')">Click Here To Download 720p</button>
+      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://terasharelink.com/s/15f6TzmM69xGCanXxJ6V70Q')">Click Here To Download 1080p</button>
+      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://terasharelink.com/s/15f6TzmM69xGCanXxJ6V70Q')">Fast Download 720p</button>
+      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://terasharelink.com/s/15f6TzmM69xGCanXxJ6V70Q')">Super Fast Download 1080p</button>
+      <button onclick="handleClick(this, 'https://otieu.com/4/9348850', 'https://otieu.com/4/9348850', 'https://terasharelink.com/s/15f6TzmM69xGCanXxJ6V70Q')">Watch Online </button>
     </div>
   </div>
 
